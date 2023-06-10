@@ -1,0 +1,248 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": ["hol", "start", "/start","Hol", "Hola ","Hola","HOLA", "ola", "hola", "Hola", "Hola Botsito", "hola botsito", "Saludos", "Buen día", "Hey", "Buenos dias", "Buenas tardes", "Que tal", "Mucho gusto"],
+      "responses": ["Hola! Bienvenido a la tienda. En que puedo ayudarte?", "Mucho gusto, mi nombre es Botsito, bienvenido a la tienda. ¿Que puedo hacer por ti?", "Bienvenido te saluda Botsito. seré tu asistente para tu compra, que deseas comprar?"]
+    },
+    {
+      "tag": "quetal",
+      "patterns": ["que tal", "Que tal", "Como estas", "como estas"],
+      "responses": ["Bien y tu?"]
+    },
+    {
+      "tag": "sal",
+      "patterns": ["Bien", "bien y tu", "bien", "si", "Si", "Sí"],
+      "responses": ["Me alegro, deseas comprar algún producto de la tienda?", "¿Perfecto, en que puedo ayudarte?"]
+    },
+     {
+      "tag": "compra",
+      "patterns": ["Deseo comprar", "quiero comprar", "comprar", "Comprar una compu", "comprar una laptop", "compra","comprar una computadora"],
+      "responses": ["Perfecto, Te ofrecemos distintos productos, que deseas?", "Me alegro, Que deseas comprar?", "Excelente, te ofrecemos de todo, dime que buscas?"]
+    },
+    {
+      "tag": "nombre",
+      "patterns": ["como es tu nombre", "quien eres", "Quien eres?", "quien eres", "como te llamas", "Como te llamas", "como t llamas", "Dime tu nombre","cual es tu nombre"],
+      "responses": ["Me llamo Botsito y soy el asistente de Mundo Tecnológico", "Mi nombre es Botsito y soy el asistente de Mundo Tecnológico"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["adiós", "hasta luego", "nos vemos", "gracias", "saludos", "muchas gracias", "Adiós", "le agradezco", "nos vemos", "nos vemos pronto", "chao", "bye"],
+      "responses": ["¡Hasta luego!", "Que tengas un buen día.", "Adiós.", "De nada! Hasta luego!", "De nada! Gracias por visitarnos!", "Esperamos que vuelvas pronto!"]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": ["gracias", "muchas gracias", "te agradezco"],
+      "responses": ["De nada", "No hay problema", "Estoy aquí para ayudar."]
+    },
+    {
+      "tag": "edad",
+      "patterns": ["cuantos años tienes", "cual es tu edad", "años","edad"],
+      "responses": ["Soy un programa de computadora, no tengo una edad física.", "No tengo edad, soy un chatbot."]
+    },
+    {
+      "tag": "comida",
+      "patterns": ["qué te gusta comer", "cuál es tu comida favorita", "comida favorita"],
+      "responses": ["No tengo capacidad para comer, soy un chatbot.", "No tengo preferencias de comida, soy un programa de computadora."]
+    },
+    {
+      "tag": "negacion",
+      "patterns": ["no", "nunca", "no lo creo"],
+      "responses": ["Está bien", "Entiendo", "De acuerdo."]
+    },
+    {
+      "tag": "ayuda",
+      "patterns": ["necesito ayuda", "no sé qué hacer", "puedes ayudarme", "¿Puedes ayudarme?"],
+      "responses": ["Por supuesto, estoy aquí para ayudarte. ¿En qué puedo asistirte?", "Claro, cuéntame cuál es tu problema y haré lo posible por ayudarte."]
+    },
+    {
+      "tag": "musica",
+      "patterns": ["¿Qué tipo de música te gusta?", "¿Tienes alguna canción favorita?"],
+      "responses": ["Como soy un programa de computadora, no tengo preferencias musicales.", "No puedo escuchar música, pero puedo ayudarte a encontrar información sobre ella."]
+    },
+    {
+      "tag": "tiempo",
+      "patterns": ["¿Cómo está el clima hoy?", "¿Qué tiempo hace?", "¿Va a llover?", "clima de hoy", "clima"],
+      "responses": ["Lo siento, no puedo proporcionarte información en tiempo real sobre el clima.", "Puedo ayudarte a encontrar un sitio web o una aplicación confiable para consultar el pronóstico del tiempo."]
+    },
+    {
+      "tag": "chiste",
+      "patterns": ["Cuentame un chiste", "algún chiste para mí?", "cuenta un chiste", "chiste"],
+      "responses": ["Claro, aquí tienes uno: ¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.", "¡Listo! ¿Por qué los pececitos no usan el ordenador? Porque les tienen miedo al ratón."]
+    },
+    {
+      "tag": "shop",
+      "patterns": ["ubicacion", "donde estan ubicados", "local", "donde los puedo encontrar", "establecimiento", "direccion", "donde se encuentran", "tienda"],
+      "responses": ["Estamos ubicados en la calle principal de El Estor, Izabal."]
+	},
+    {
+      "tag": "cel",
+      "patterns": ["telefono?", "telefonos?","celular", "contacto", "proporcionar su numero", "A que numero puedo llamar", "a que numero puedo llamarles", "a que numero puedo marcarles"],
+      "responses": ["Claro puede contactarnos al 1800-2345."]
+    },
+	{
+      "tag": "CategoriaProductos",
+      "patterns": ["Productos","Categorias", "quisiera comprar", "Que ofrecen", "Que hay", "que venden", "categorias", "oferta", "venta", "Una computadora", "Una Compu"],
+      "responses": ["En Mundo Tecnológico ofrecemos una amplia variedad de productos en diferentes categorías, incluyendo laptops, computadoras de escritorio, monitores, periféricos, accesorios y componentes. ¿En qué categoría estás interesado?"]
+	},
+    {
+      "tag": "Laptops",
+      "patterns": ["laptop", "Laptop", "Laptops", "laptops", "portátil", "notebook","una computadora"],
+      "responses": ["Tenemos una selección de laptops de diferentes marcas y especificaciones. ¿Buscas una laptop para gaming, trabajo o uso general?"]
+    },
+    {
+    "tag": "LaptopsGaming",
+    "patterns": ["laptop gaming", "portátil gaming", "notebook gaming", "gaming", "Gaming"],
+    "responses": ["Actualmente tenemos disponibles: *ASUS ROG Zephyrus G14 con un precio de Q. 12,000.00, *Acer Predator Helios 300 con un precio de Q. 15,000.00 y MSI GS66 Stealth con un precio de Q. 14,000.00. ¿Cual deseas comprar?"]
+    },
+    {
+    "tag": "LaptopsTrabajo",
+    "patterns": ["laptop de trabajo", "portátil de trabajo", "notebook de trabajo", "trabajo", "Trabajar","para trabajar","para trabajo"],
+    "responses": ["Tenemos opciones ideales para laptops de trabajo: *Dell XPS 15 con un precio de Q. 3,800, *Lenovo ThinkPad X1 Carbon precio: Q. 4,700.00 y HP EliteBook Q. 5,0000. ¿Cual deseas comprar?"]
+    },
+    {
+    "tag": "LaptopsGeneral",
+    "patterns": ["laptop de uso general", "portátil de uso general", "notebook de uso general"],
+    "responses": ["Para uso general te frecemos: *Apple MacBook Pro con un precio de Q. 9,000.00, Microsoft Surface Laptop con un precio de Q. 5,300.00 y HP Envy Q. 4,200.00. ¿Cual deseas comprar?"]
+    },
+    {
+    "tag": "cant",
+    "patterns": ["1", "2", "3","solo una", "dos", "tres", "unicamente una"],
+      "responses": ["Perfecto hemos agregado tu compra a tu carrito, ¿Cúal sería tu método de pago?: Efectivo, Tarjeta de crédito o debito y Transferencia bancaria"]
+    },
+    {
+    "tag": "pago",
+    "patterns": ["efectivo", "tarjeta de debito", "tarjeta de credito", "transferencia", "bancaria"],
+      "responses": ["Perfecto se ha tomado tu pedido tu no. de orden es 12345, en breve uno de nuestros asesores te llamará"]
+    },
+    {
+      "tag": "AgregarCarrito",
+      "patterns": ["quiero comprar", "Apple MacBook Pro", "Microsoft Surface", "Dell XPS","me interesa comprar", "ASUS ROG Zephyrus", "HP Envy", "Lenovo ThinkPad X1 Carbon", "quiero comprar","agregar al carrito", "añadir al carrito", "HP Elitebook", "Acer Predator Helios", "MSI GS66 Stealth", "poner en el carrito", "comprar"],
+      "responses": ["¡Genial! ¿Cuántas unidades del producto deseas agregar al carrito?"]
+    },
+    {
+      "tag": "ComputadorasEscritorio",
+      "patterns": ["computadora de escritorio", "pc de escritorio", "ordenador de escritorio"],
+      "responses": ["Ofrecemos computadoras de escritorio de alto rendimiento y opciones personalizables para satisfacer tus necesidades. ¿Tienes alguna preferencia de marca o especificaciones en mente?"]
+    },
+    {
+        "tag": "LaptopsHP",
+        "patterns": ["laptop HP","hp","HP","laptop hp", "portátil HP"],
+        "responses": ["Tenemos una variedad de laptops HP disponibles. Algunos modelos populares incluyen:\n\n- HP Pavilion x360: Q6,500\n- HP Envy 13: Q8,200\n- HP Spectre x360: Q12,500\n\n¿Hay algún modelo en particular que te interese?"]
+    },
+    {    "tag": "LaptopsDell",
+        "patterns": ["laptop Dell","laptop dell", "dell","Dell","portátil Dell"],
+        "responses": ["Contamos con diferentes opciones de laptops Dell. Algunos modelos destacados son:\n\n- Dell XPS 15: Q11,000\n- Dell Inspiron 14: Q6,800\n- Dell Latitude 7490: Q9,500\n\n¿Algún modelo específico que estés considerando?"]
+    },
+    {
+        "tag": "LaptopsAsus",
+        "patterns": ["laptop Asus", "portátil Asus", "Asus", "asus"],
+        "responses": ["Ofrecemos una variedad de laptops Asus. Algunos modelos populares son:\n\n- Asus ROG Zephyrus G14: Q9,800\n- Asus ZenBook 14: Q7,600\n- Asus VivoBook S15: Q6,300\n\n¿Tienes alguna preferencia de modelo o características en mente?"]
+    },
+    {
+      "tag": "Monitores",
+      "patterns": ["monitor", "monitores", "Monitores","pantalla", "display"],
+      "responses": ["Contamos con una variedad de monitores de diferentes tamaños, resoluciones y tecnologías. ¿Estás buscando un monitor para gaming, diseño gráfico o uso general?"]
+    },
+    {
+      "tag": "Accesorios",
+      "patterns": ["cable", "adaptador", "cargador", "mochila", "maletín", "accesorios","Accesorios"],
+      "responses": ["Tenemos una variedad de accesorios disponibles, como cables, adaptadores, cargadores y mochilas para transportar tus dispositivos. ¿Necesitas algo en específico?"]
+    },
+    {
+      "tag": "Componentes",
+      "patterns": ["procesador", "tarjeta gráfica", "componentes", "Componentes", "memoria RAM", "disco duro", "SSD", "fuente de poder", "placa madre", "gabinete"],
+      "responses": ["Ofrecemos una amplia selección de componentes para ensamblar o mejorar tu equipo, como procesadores, tarjetas gráficas, memoria RAM, discos duros, SSDs, fuentes de poder, placas madre y gabinetes. ¿Hay algún componente en particular que estés buscando?"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["que hora abren", "horario", "hora", "horas de apertura", "abierto", "atencion", "servicio", "cerrado", "que hora cierran", "cuales son sus horarios"],
+      "responses": ["Nuestros horarios de atencion son de lunes a viernes de 9:00 a.m. a 9:00 p.m."]
+    },
+    {
+      "tag": "stocks",
+      "patterns": ["stock", "inventario"],
+      "responses": ["Tenemos una amplia gama de equipos de computacion, perifericos y accesorios: CPU, GPU, Motherboards, RAM, Perifericos, Discos Duros, SSD, etc. Que necesitas?"]
+    },
+    {
+      "tag": "ventilador",
+      "patterns": ["ventilador", "ventilacion", "refrigeracion", "ventiladores", "aire", "flujo de aire", "fans"],
+      "responses": ["Contamos con una amplia gama de ventiladores, con marcas reconocidas como Noctua o ARCTIC para aquellos que quieren un estilo sobrio.", "Te interesan los ventiladores vistosos y llenos de colores? Revisa las opciones que tenemos con marcas como Corsair, Cooler Master y Silverstone.", "Contamos con ventiladores de alta presion para disipadores de alto rendimiento. Recomendamos el Noctua Noctua NF-F12 iPPC-3000 PWM para aplicaciones de refrigeracion de alta presion."]
+    },
+    {
+      "tag": "rgb",
+      "patterns": ["tiras led", "argb", "rgb", "aro led", "barra rgb", "tira led", "tira argb", "luces", "lucesitas", "colores"],
+      "responses": ["Las tiras led vienen en 2 tipos: RGB y ARGB. Las ARGB emplean una interfaz de 3 pines y disponen de una amplia gama de colores y efectos. Por otra parte, las RGB utilizan una interfaz de 4 pines y solo pueden mostrar un unico color a la vez. Decora con potencia y luces tu gabinete! Ademas, tendras mas FPS. ;)"]
+    },
+    {
+      "tag": "ProcesadorCPU",
+    "patterns": ["cpu videojuegos", "procesador gaming", "procesador juegos", "cpu juegos", "procesador videojuegos"],
+    "responses": ["Los procesadores de videojuegos de Intel y AMD son los mas populares en el mercado. Los videojuegos actuales aprovechan como maximo configuraciones de 6 nucleos; aunque un procesador de 4 nucleos sigue siendo una buena opcion con un presupuesto limitado. Te recomendamos los siguientes procesadores: AMD Ryzen 5 5600X, i5-12400 e i3-12100."]
+    },
+    {
+      "tag": "Motherboards",
+      "patterns": ["placa madre gaming", "placa madre videojuegos", "placa madre juegos", "motherboard videojuegos", "motherboard gaming", "mother videojuegos", "mother gaming"],
+      "responses": ["La motherboard es lo que conecta a todo tu equipo. Las motherboards de Intel y AMD son distintas, y  ademas, no todas son compatibles con distintas generaciones de CPUs por lo que debes elegirlas con cuidado. Una buena placa te dara una experiencia de juego mas agradable y la posibilidad de hacer Overclock. Nuestras consentidas son las ROG Strix, las MSI Mortar y las AORUS Master. ;)"]
+    },
+    {
+      "tag": "RAM",
+      "patterns": ["ram", "memoria ram", "Memoria RAM", "Memoria Ram", "Memoria","memoria", "sticks", "8gb ram", "ram gaming", "ddr3", "ddr4", "ddr5"],
+      "responses": ["La RAM permite cargar con velocidad tus programas. Si eres un gamer, te recomendamos minimo 16GB de RAM, mientras que si eres un usuario casual con 8GB de RAM tendras suficiente. Pero si eres un profesional, de preferencia deberias usar 32GB. Te recomendamos las siguientes marcas: Kingston Fury, TEAM Group, Corsair y XPG"]
+    },
+    {
+      "tag": "Destacados",
+      "patterns": ["productos destacados", "ofertas", "promociones", "recomendaciones"],
+      "responses": ["Tenemos varios productos destacados en oferta en este momento. ¿Buscas algo en particular o te gustaría conocer nuestras recomendaciones?"]
+    },
+    {
+      "tag": "BuscarProductos",
+      "patterns": ["buscar", "encontrar", "producto específico", "nombre del producto", "busco"],
+      "responses": ["Puedo ayudarte a encontrar productos específicos. Por favor, proporciona el nombre o una descripción del producto que estás buscando."]
+    },
+    {
+      "tag": "EliminarCarrito",
+      "patterns": ["eliminar del carrito", "quitar del carrito", "remover del carrito"],
+      "responses": ["Entendido. ¿Qué producto deseas eliminar del carrito?"]
+    },
+    {
+      "tag": "VerCarrito",
+      "patterns": ["ver carrito", "ver mi carrito", "mostrar carrito", "ver productos en el carrito"],
+      "responses": ["Claro, puedo mostrarte los productos que tienes en tu carrito. Por favor, espera un momento mientras recopilo la información."]
+    },
+    {
+      "tag": "FinalizarCompra",
+      "patterns": ["finalizar compra", "realizar compra", "completar compra", "pagar"],
+      "responses": ["¡Estás a punto de finalizar tu compra! Por favor, proporciona la información necesaria para procesar tu pedido, como la dirección de envío y el método de pago."]
+    },
+    {
+      "tag": "SeguimientoPedido",
+      "patterns": ["seguimiento de pedido", "rastrear pedido", "dónde está mi pedido", "estado del pedido"],
+      "responses": ["Puedo ayudarte a rastrear tu pedido. Por favor, proporciona el número de seguimiento o la información necesaria para verificar el estado de tu pedido."]
+    },
+    {
+      "tag": "PromocionesEspeciales",
+      "patterns": ["promociones especiales", "descuentos", "ofertas especiales", "rebajas"],
+      "responses": ["Tenemos promociones especiales en una amplia gama de productos. ¿Hay alguna categoría o producto en particular en el que estés interesado?"]
+    },
+    {
+      "tag": "ConsultarDisponibilidad",
+      "patterns": ["disponibilidad", "en stock", "disponible", "tienen en existencia"],
+      "responses": ["Puedo verificar la disponibilidad de un producto específico en nuestro inventario. Por favor, proporciona el nombre o la referencia del producto que te interesa."]
+    },
+    {
+      "tag": "AsesoramientoProductos",
+      "patterns": ["necesito ayuda para elegir", "recomiéndame un producto", "asesoramiento de compra", "no sé qué producto elegir"],
+      "responses": ["¡Claro! Estoy aquí para ayudarte a elegir el producto adecuado. Por favor, indícame tus preferencias o el uso que le darás al producto para brindarte recomendaciones personalizadas."]
+    },
+    {
+      "tag": "ConsultarEspecificaciones",
+      "patterns": ["especificaciones técnicas", "características del producto", "detalles técnicos", "información del producto"],
+      "responses": ["Puedo proporcionarte información detallada sobre las especificaciones técnicas de un producto en particular. Por favor, proporciona el nombre o la referencia del producto."]
+    },
+    {
+      "tag": "ConsultarOpiniones",
+      "patterns": ["opiniones de clientes", "reseñas de productos", "valoraciones de productos", "experiencias de clientes"],
+      "responses": ["Puedo mostrarte las opiniones y reseñas de clientes satisfechos con nuestros productos. Por favor, proporciona el nombre o la referencia del producto del que deseas ver las opiniones."]
+    }
+  ]
+}
